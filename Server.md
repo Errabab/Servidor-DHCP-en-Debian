@@ -20,6 +20,7 @@ INTERNA**.
 Arrancamos de nuevo la MV y nos iremos al archivo de configuración
 `nano /etc/network/interfaces` y tenemos que ponerle una **IP ESTÁTICA** a nuestro
 **DHCP**.
+
 ![ip](img/S2.png)
 
 Comprobamos que la ip se ha cambiado  correctamente
