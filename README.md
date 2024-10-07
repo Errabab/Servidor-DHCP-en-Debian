@@ -4,7 +4,7 @@
 
 Este documento explica cómo configurar un servidor DHCP en Debian 12, con detalles sobre la instalación y configuración inicial. Abarca aspectos como la creación de un relay DHCP para gestionar redes internas y cómo implementar una configuración de failover para asegurar la continuidad del servicio DHCP. A continuación se presenta un resumen de los temas principales:
 
-1. Instalación de DHCP en Debian 12: Pasos para instalar el paquete isc-dhcp-server, configurar la IP estática del servidor y ajustar los archivos de configuración necesarios.
+1. ![Instalación de DHCP en Server](Server.md) : Pasos para instalar el paquete isc-dhcp-server, configurar la IP estática del servidor y ajustar los archivos de configuración necesarios.
 
 2. Configuración del Relay DHCP: Se detalla cómo configurar un relay DHCP, que permite asignar direcciones IP a dispositivos en subredes remotas.
 
