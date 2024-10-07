@@ -11,6 +11,7 @@ Al instalarlo **automaticamente** se nos abrirá esta pantalla, donde tendremos 
 ![relay](img/R1.png)
 
 A continuacion nos pedira las interfaces de red por donde escuchara el servidor dhcp,que en mi caso son **enp0s3** y **enp0s8**:
+
 ![relay](img/R2.png)
 
 En especificaciones adicionales no pondremos nada.
@@ -20,8 +21,11 @@ En especificaciones adicionales no pondremos nada.
 Una vez instalado apagamos la máquina y configuramos dos tarjetas de red:
   1. Para la red de cliente 
   *El nombre de la red interna tiene que coincidir la del cliente.*
+
   ![relay](img/R4.png)
+  
   2. Para la red del servidor
+     
   ![relay](img/R4.png)
 
 Arrancamos la maquina y configuramos las direcciones de ambas tarjetas de red
@@ -36,7 +40,9 @@ enp0s8 → Red de cliente**
 
 Cuando lo hagamos, reiniciamos el servicio networking
 `systemctl restart networking`
+
 ![relay](img/R6.png)
+
 Comprobamos que se han cambiado las ips corectamente 
 
 ![relay](img/R7.png)
