@@ -27,7 +27,9 @@ Hacemos ping al servidor **Ip_Server=192.168.1.10** para comprobar la conectivid
 Una vez haya conectividad con el cliente vamos al servidor a configurar `/etc/default/isc-dhcp-server `,
 para configurar la tarjeta que va a escuchar las peticiones del cliente.
 
-Una vez activo el sever dhcp  nos vamos al cliente y cambiamos la red en modo dhcp . `/etc/network/interfaces`
+Una vez activo el sever dhcp  nos vamos al cliente y cambiamos la red en modo dhcp . 
+`/etc/network/interfaces`
+
 ![cliente](img/C5.png)
 
 Una vez hecho , hacemos `dhclient -r` y `dhclient -v `para solicitar ip al servidor
