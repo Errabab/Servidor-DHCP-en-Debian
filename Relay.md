@@ -32,8 +32,9 @@ Arrancamos la maquina y configuramos las direcciones de ambas tarjetas de red
 `nano /etv/network/interfaces`
 
 ---
-**enp0s3 → Red de servidor
-enp0s8 → Red de cliente**
+**enp0s3 → Red de servidor**
+
+**enp0s8 → Red de cliente**
 
 ---
 ![relay](img/R6.png)
